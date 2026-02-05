@@ -7,7 +7,7 @@ function downloadArquivo(url, nomeArquivo) {
 
     // Adiciona ao corpo, clica e remove
     document.body.appendChild(a);
-    a.click();
+    a.click(); 
     
     // Limpa a memória
     setTimeout(() => {
